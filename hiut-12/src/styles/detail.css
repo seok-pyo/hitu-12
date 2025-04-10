@@ -18,6 +18,16 @@
   /* 텍스트도 가운데 */
 }
 
+.detail-des {
+  margin-top: 50px;
+  width: 60vw;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.detail-tit {
+  font-size: 50px;
+}
 
 .detail img {
   max-width: 100%;
@@ -39,7 +49,7 @@
 
 .exhi-des {
   margin-top: 50px;
-  line-height: 2.2;
+  line-height: 2;
   width: 60vw;
   word-break: keep-all;
 }
@@ -51,7 +61,8 @@
     gap: 1rem 1.5rem;
   }
 
-  .exhi-des {
+  .exhi-des,
+  .detail-des {
     width: 80vw;
   }
 }

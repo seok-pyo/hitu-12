@@ -17,7 +17,7 @@ export default function Card({ id, data, isCard, isVisited }: CardProps) {
     description: '',
     image: ''
   }
-  const isAbout = id === 'about'
+  // const isAbout = id === 'about'
 
   const handleClick = () => {
     let visited = JSON.parse(sessionStorage.getItem('visited') || '[]')

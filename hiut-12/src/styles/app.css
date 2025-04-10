@@ -75,6 +75,14 @@
   .card:hover {
     background-color: #fff;
   }
+
+  .card.visited {
+    background-color: #01A1E8;
+  }
+
+  .last {
+    margin-top: 50px;
+  }
 }
 
 .logo,
@@ -85,8 +93,4 @@
 
 .exhi-info {
   color: #01A1E8
-}
-
-.card.visited {
-  background-color: #01A1E8;
 }

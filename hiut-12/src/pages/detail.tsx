@@ -37,8 +37,8 @@ export default function Detail() {
       </div>
       :
       <div className="detail">
-        <h1>{data.title}</h1>
-        <p><strong>작가:</strong> {data.title}</p>
+        <h1 className='detail-tit'>{data.title}</h1>
+        <p className='detail-des'>{data.description}</p>
         <img src={data.image} alt={`${data.title} 이미지`} />
         <Link to="/" className="back">돌아가기</Link>
       </div>
