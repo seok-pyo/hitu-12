@@ -5,6 +5,8 @@ export interface FontItem {
   role: string
   description: string
   image: string
+  authorDes?: string
+  image2?: string
 }
 
 export const fontData: Record<string, FontItem> = {
@@ -20,80 +22,100 @@ export const fontData: Record<string, FontItem> = {
     title: '평안',
     author: '박수민',
     type: '가로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   bora: {
     title: '로맨스판타지',
     author: '이보라',
     type: '가로쓰기',
-    role: '제목',
+    role: '제목용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '판타지적 상상력과 로맨스의 감정을 조형화한 실험적 본문 서체입니다.',
-    image: '/images/bora.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   suji: {
     title: '내벗',
     author: '이수지',
     type: '세로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   jiwon: {
     title: '원율',
     author: '이지원',
     type: '가로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   soy: {
     title: '평',
     author: '정소이',
     type: '가로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   youngsin: {
     title: '시동',
     author: '정영신',
     type: '가로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   minyoung: {
     title: '정류',
     author: '최민영',
     type: '세로쓰기',
-    role: '제목',
+    role: '제목용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   jiseon: {
     title: '오른',
     author: '허지선',
     type: '세로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   seokpyo: {
     title: '선일',
     author: '홍석표',
     type: '세로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
   yongje: {
     title: '돈수',
     author: '이용제',
     type: '가로쓰기',
-    role: '본문',
+    role: '본문용',
+    authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
     description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
-    image: '/images/suji.jpg',
+    image: '/assets/exhibition.jpg',
+    image2: '/assets/exhibition2.jpg'
   },
 }

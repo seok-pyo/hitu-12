@@ -29,15 +29,28 @@
   font-size: 50px;
 }
 
+.detail-role {
+  margin-top: 10px;
+}
+
 .detail img {
   max-width: 100%;
   margin-top: 20px;
   /* border-radius: 8px; */
 }
 
+.detail-auth {
+  margin-top: 150px
+}
+
+.detail-aut-des {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 .back {
   display: inline-block;
-  margin-top: 5rem;
+  margin-top: 20rem;
   color: #01A1E8;
   text-decoration: none;
   font-weight: bold;
