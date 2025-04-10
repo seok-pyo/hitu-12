@@ -71,6 +71,10 @@
   .card {
     height: 200px;
   }
+
+  .card:hover {
+    background-color: #fff;
+  }
 }
 
 .logo,
@@ -84,7 +88,5 @@
 }
 
 .card.visited {
-  background-color: #e0f7ff;
-  /* 살짝 밝은 파랑 */
-  opacity: 0.9;
+  background-color: #01A1E8;
 }
