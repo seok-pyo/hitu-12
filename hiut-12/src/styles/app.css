@@ -56,12 +56,21 @@
   color: #01A1E8;
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
-  line-height: 1.7;
+  gap: 2rem;
+  line-height: 1.5;
   font-size: 15px;
 }
 
+.people {
+  word-break: keep-all;
+  width: 350px;
+}
+
 @media (max-width: 600px) {
+  .people {
+    width: initial;
+  }
+
   .last {
     display: grid;
     grid-template-columns: 1fr 1fr;
