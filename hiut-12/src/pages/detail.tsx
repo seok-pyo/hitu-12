@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { fontData, FontItem } from '../data/fontData'
-import './Detail.css'
+import '../styles/detail.css'
 
 export default function Detail() {
   const { id } = useParams<{ id: string }>()

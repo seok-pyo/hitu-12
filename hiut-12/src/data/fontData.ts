@@ -11,8 +11,8 @@ export const fontData: Record<string, FontItem> = {
   about: {
     title: '머리와 맺음',
     author: '히읗 열두번째 전시',
-    type: '히읗',
-    role: '전시소개',
+    type: '',
+    role: 'ABOUT',
     description: '이번 전시는 다양한 방향성과 감각을 지닌 디자이너들이 "서체"라는 매체를 통해 이야기하는 전시입니다.',
     image: '/images/exhibition.jpg',
   },

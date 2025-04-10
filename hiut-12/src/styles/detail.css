@@ -1,0 +1,26 @@
+/* src/Detail.css */
+
+.detail {
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.detail img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: cyan;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back:hover {
+  text-decoration: underline;
+}

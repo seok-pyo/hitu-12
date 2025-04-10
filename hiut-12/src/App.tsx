@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { fontData, FontItem } from './data/fontData.ts'
-import './App.css'
+import './styles/app.css'
 
 export default function App() {
   return (
