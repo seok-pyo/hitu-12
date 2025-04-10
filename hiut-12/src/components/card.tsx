@@ -19,6 +19,11 @@ export default function Card({ id, data, isCard }: CardProps) {
   const isAbout = id === 'about'
 
   const handleClick = () => {
+    const visited = JSON.parse(sessionStorage.getItem('visited') || '[]')
+    if (!visited.includes(id)) {
+      visited.push(id)
+      sessionStorage.setItem('visited', JSON.stringify(visited))
+    }
     sessionStorage.setItem('scrollY', window.pageYOffset.toString())
   }
 
