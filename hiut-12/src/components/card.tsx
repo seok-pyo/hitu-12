@@ -37,7 +37,7 @@ export default function Card({ id, data, isCard, isVisited }: CardProps) {
         <div>{role}</div>
       </div>
       <div className="bottom">
-        <div>{title}</div>
+        <div className="card-title">{title}</div>
         <div className="details">{author}</div>
       </div>
     </Link > : <div className="last">

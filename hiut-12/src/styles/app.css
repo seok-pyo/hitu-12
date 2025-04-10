@@ -21,6 +21,11 @@
   color: inherit;
 }
 
+.card-title {
+  font-family: 'damso', 'san-serif';
+  font-weight: 900;
+}
+
 .card:hover {
   background: #0DA5E9;
 }
@@ -72,9 +77,9 @@
   }
 
   .last {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .card {

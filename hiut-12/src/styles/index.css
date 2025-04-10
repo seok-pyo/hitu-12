@@ -8,8 +8,8 @@
 
 html,
 body {
-  font-family: 'MyFont', sans-serif;
-  font-weight: 400;
+  font-family: 'damso', sans-serif;
+  font-weight: 700;
 
   background-color: #000;
   color: #000;
@@ -51,9 +51,9 @@ img {
 
 @media (max-width: 600px) {
   .last {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem 1rem;
+    margin-top: 150px;
+    width: 70vw;
+    grid-template-columns: 1fr;
   }
 
   body {
