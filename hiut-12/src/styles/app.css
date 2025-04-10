@@ -56,7 +56,7 @@
   color: #01A1E8;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.75rem;
   line-height: 1.5;
   font-size: 15px;
 }
