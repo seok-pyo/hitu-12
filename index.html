@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Grid</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #000;
+      color: #000;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      margin-left: 15px;
+      color: #fff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      position: relative;
+      background: #fff;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 250px;
+      transition: background 0.3s;
+    }
+
+    .card:hover {
+      background: cyan;
+    }
+
+    .card .top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .card .bottom {
+      font-size: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-weight: bold;
+    }
+
+    .card .details {
+      font-size: 20px;
+      text-transform: uppercase;
+      align-self: flex-end;
+    }
+
+    .about {
+      background-color: aqua;
+    }
+
+    .last {
+      margin-left: 15px;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    @media (max-width: 600px) {
+      .last {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 1.5rem;
+      }
+    }
+
+    .logo,
+    .nav {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    html,
+    body {
+      overflow: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="grid">
+    <a href="detail/about.html" class="card about">
+      <div class="top">
+        <div>히읗</div>
+        <div>열두번째 전시</div>
+      </div>
+      <div class="bottom">
+        <div>머리와 맺음</div>
+        <div class="details">About</div>
+      </div>
+    </a>
+
+    <a href="hyun.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>평안</div>
+        <div class="details">박수민</div>
+      </div>
+    </a>
+
+    <a href="bora.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>타이틀</div>
+      </div>
+      <div class="bottom">
+        <div>로맨스판타지</div>
+        <div class="details">이보라</div>
+      </div>
+    </a>
+
+    <a href="suji.html" class="card">
+      <div class="top">
+        <div>세로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>내벗</div>
+        <div class="details">이수지</div>
+      </div>
+    </a>
+
+    <a href="jiwon.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>원율</div>
+        <div class="details">이지원</div>
+      </div>
+    </a>
+
+    <a href="soi.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>평</div>
+        <div class="details">정소이</div>
+      </div>
+    </a>
+
+    <a href="youngshin.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>시동</div>
+        <div class="details">정영신</div>
+      </div>
+    </a>
+
+    <a href="minyoung.html" class="card">
+      <div class="top">
+        <div>세로쓰기</div>
+        <div>타이틀</div>
+      </div>
+      <div class="bottom">
+        <div>정류</div>
+        <div class="details">최민영</div>
+      </div>
+    </a>
+
+    <a href="jisun.html" class="card">
+      <div class="top">
+        <div>세로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>오른</div>
+        <div class="details">허지선</div>
+      </div>
+    </a>
+
+    <a href="seokpyohong.html" class="card">
+      <div class="top">
+        <div>세로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>선일</div>
+        <div class="details">홍석표</div>
+      </div>
+    </a>
+
+    <a href="yongje.html" class="card">
+      <div class="top">
+        <div>가로쓰기</div>
+        <div>본문</div>
+      </div>
+      <div class="bottom">
+        <div>돈수</div>
+        <div class="details">이용제</div>
+      </div>
+    </a>
+
+    <div class="last">
+      <div>
+        머리와 맺음 <br>
+        히읗 열두번째 전시 <br>
+        2025. 04. 20. - 2025. 04. 27. <br>
+      </div>
+      <div>
+        Factory2 <br>
+        서울특별시 종로구 자하문로10길 15
+      </div>
+      <div>
+        지원 | 활자공간, 오늘폰트
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
