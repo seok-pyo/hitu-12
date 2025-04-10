@@ -24,3 +24,15 @@ body::-webkit-scrollbar {
   display: none;
   /* Chrome, Safari, Edge */
 }
+
+@media (max-width: 600px) {
+  .last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem;
+  }
+
+  body {
+    padding: 0;
+  }
+}

@@ -1,8 +1,12 @@
+import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { fontData, FontItem } from '../data/fontData'
 import '../styles/detail.css'
 
 export default function Detail() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const { id } = useParams<{ id: string }>()
   const data: FontItem | undefined = id ? fontData[id] : undefined
 
@@ -36,7 +40,7 @@ export default function Detail() {
         <h1>{data.title}</h1>
         <p><strong>작가:</strong> {data.title}</p>
         <img src={data.image} alt={`${data.title} 이미지`} />
-        <p><Link to="/" className="back">돌아가기</Link></p>
+        <Link to="/" className="back">돌아가기</Link>
       </div>
   )
 }

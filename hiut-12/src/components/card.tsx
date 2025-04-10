@@ -18,8 +18,12 @@ export default function Card({ id, data, isCard }: CardProps) {
   }
   const isAbout = id === 'about'
 
+  const handleClick = () => {
+    sessionStorage.setItem('scrollY', window.pageYOffset.toString())
+  }
+
   return isCard ?
-    <Link to={`/detail/${id}`} className={`card ${isAbout ? 'about' : ''}`}>
+    <Link to={`/detail/${id}`} className={`card ${isAbout ? 'about' : ''}`} onClick={handleClick}>
       <div className="top">
         <div>{type}</div>
         <div>{role}</div>
@@ -28,7 +32,7 @@ export default function Card({ id, data, isCard }: CardProps) {
         <div>{title}</div>
         <div className="details">{author}</div>
       </div>
-    </Link> : <div className="last">
+    </Link > : <div className="last">
       <div>
         머리와 맺음<br />
         2025. 04. 20. - 2025. 04. 27.

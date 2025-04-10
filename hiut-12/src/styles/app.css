@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
+
+  align-items: stretch;
 }
 
 .card {
@@ -49,7 +51,7 @@
 }
 
 .last {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   background-color: #000;
   color: #01A1E8;
   display: flex;
@@ -63,7 +65,7 @@
   .last {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem 1.5rem;
+    gap: 1.5rem 1.5rem;
   }
 }
 
