@@ -34,7 +34,7 @@ export const fontData: Record<string, FontItem> = {
     type: '가로쓰기',
     role: '제목용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '판타지적 상상력과 로맨스의 감정을 조형화한 실험적 본문 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -44,7 +44,7 @@ export const fontData: Record<string, FontItem> = {
     type: '세로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -54,7 +54,7 @@ export const fontData: Record<string, FontItem> = {
     type: '가로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -64,7 +64,7 @@ export const fontData: Record<string, FontItem> = {
     type: '가로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -74,7 +74,7 @@ export const fontData: Record<string, FontItem> = {
     type: '가로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -84,7 +84,7 @@ export const fontData: Record<string, FontItem> = {
     type: '세로쓰기',
     role: '제목용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -94,7 +94,7 @@ export const fontData: Record<string, FontItem> = {
     type: '세로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -104,7 +104,7 @@ export const fontData: Record<string, FontItem> = {
     type: '세로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
@@ -114,7 +114,7 @@ export const fontData: Record<string, FontItem> = {
     type: '가로쓰기',
     role: '본문용',
     authorDes: '서체를 만든 디자이너에 대한 소개 영역입니다. ',
-    description: '어린 시절 친구에게 쓰는 편지를 상상하며 제작된 세로쓰기 서체입니다.',
+    description: '일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다. 일상의 평화로움과 고요함을 활자 형태로 담은 작품입니다.',
     image: '/assets/exhibition.jpg',
     image2: '/assets/exhibition2.jpg'
   },
