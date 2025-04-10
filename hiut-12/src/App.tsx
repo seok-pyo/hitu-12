@@ -10,8 +10,10 @@ export default function App() {
       <ScrollMemory />
       <main className="grid">
         {Object.entries(fontData).map(([id, data]) => {
+          const visited = JSON.parse(sessionStorage.getItem('visited') || '[]')
+          const isVisited = visited.includes(id)
           return (
-            <Card key={id} id={id} data={data} isCard={true}></Card>
+            <Card key={id} id={id} data={data} isCard={true} isVisited={isVisited}></Card>
           )
         })}
         <Card isCard={false}></Card>

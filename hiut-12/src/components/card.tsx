@@ -5,9 +5,10 @@ type CardProps = {
   id?: string
   data?: FontItem
   isCard?: boolean
+  isVisited?: boolean
 }
 
-export default function Card({ id, data, isCard }: CardProps) {
+export default function Card({ id, data, isCard, isVisited }: CardProps) {
   const { title, author, type, role } = data ?? {
     title: '',
     author: '',
@@ -19,16 +20,18 @@ export default function Card({ id, data, isCard }: CardProps) {
   const isAbout = id === 'about'
 
   const handleClick = () => {
-    const visited = JSON.parse(sessionStorage.getItem('visited') || '[]')
+    let visited = JSON.parse(sessionStorage.getItem('visited') || '[]')
     if (!visited.includes(id)) {
+      visited = []
       visited.push(id)
       sessionStorage.setItem('visited', JSON.stringify(visited))
     }
+    sessionStorage.setItem('visited', JSON.stringify(visited))
     sessionStorage.setItem('scrollY', window.pageYOffset.toString())
   }
 
   return isCard ?
-    <Link to={`/detail/${id}`} className={`card ${isAbout ? 'about' : ''}`} onClick={handleClick}>
+    <Link to={`/detail/${id}`} className={`card ${id === 'about' ? 'about' : ''} ${isVisited ? 'visited' : ''}`} onClick={handleClick}>
       <div className="top">
         <div>{type}</div>
         <div>{role}</div>

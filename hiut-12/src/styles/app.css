@@ -82,3 +82,9 @@
 .exhi-info {
   color: #01A1E8
 }
+
+.card.visited {
+  background-color: #e0f7ff;
+  /* 살짝 밝은 파랑 */
+  opacity: 0.9;
+}
