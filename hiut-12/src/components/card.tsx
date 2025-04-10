@@ -19,7 +19,7 @@ export default function Card({ id, data, isCard }: CardProps) {
   const isAbout = id === 'about'
 
   return isCard ?
-    <Link to={`/detail${id}`} className={`card ${isAbout ? 'about' : ''}`}>
+    <Link to={`/detail/${id}`} className={`card ${isAbout ? 'about' : ''}`}>
       <div className="top">
         <div>{type}</div>
         <div>{role}</div>

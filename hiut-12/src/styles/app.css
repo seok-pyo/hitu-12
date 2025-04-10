@@ -20,7 +20,7 @@
 }
 
 .card:hover {
-  background: cyan;
+  background: #0DA5E9;
 }
 
 .card .top {
@@ -45,13 +45,13 @@
 }
 
 .about {
-  background-color: aqua;
+  background-color: #01A1E8;
 }
 
 .last {
   margin-left: 15px;
   background-color: #000;
-  color: #fff;
+  color: #01A1E8;
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
@@ -74,5 +74,5 @@
 }
 
 .exhi-info {
-  color: #fff
+  color: #01A1E8
 }
