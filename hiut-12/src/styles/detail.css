@@ -48,6 +48,7 @@
   font-size: 14px;
   width: 40vw;
   line-height: 2;
+  word-break: keep-all;
 }
 
 .back {
