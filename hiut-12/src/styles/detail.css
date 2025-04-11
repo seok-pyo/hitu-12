@@ -3,7 +3,7 @@
 .detail {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   /* 수평 가운데 정렬 */
   /* justify-content: center; */
   /* 수직 가운데 정렬 (필요 시) */
@@ -24,6 +24,7 @@
   width: 60vw;
   line-height: 2;
   font-size: 16px;
+  word-break: keep-all;
 }
 
 .detail-tit {
@@ -54,7 +55,7 @@
 
 .back {
   display: inline-block;
-  margin-top: 20rem;
+  margin-top: 12rem;
   margin-bottom: 10rem;
   color: #01A1E8;
   text-decoration: none;
@@ -90,6 +91,10 @@
 
   .exhi-des,
   .detail-des {
+    width: 80vw;
+  }
+
+  .detail-aut-des {
     width: 80vw;
   }
 }
