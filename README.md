@@ -1,21 +1,4 @@
 # hitu-12
 
-src/
-├── assets/              
-│   └── images/
-├── components/          
-│   └── Card.tsx
-├── data/                
-│   └── fontData.ts
-├── pages/               
-│   ├── Home.tsx         
-│   └── Detail.tsx
-├── styles/              
-│   ├── index.css
-│   ├── App.css
-│   └── Detail.css
-├── types/               
-│   └── font.ts
-├── App.tsx              
-├── main.tsx
+- scroll 위치 기억하기. 메인으로 돌아왔을 때 번쩍거림 잡기.
 
