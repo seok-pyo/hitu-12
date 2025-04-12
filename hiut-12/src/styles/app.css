@@ -33,7 +33,7 @@
 .card .top {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
