@@ -42,10 +42,15 @@ export default function Detail() {
         <h1 className='detail-tit'>{data.title}</h1>
         <p className='detail-role'>{data.role} / {data.type}</p>
         <p className='detail-des'>{data.description}</p>
-        <img src={data.image} alt={`${data.title} 이미지`} />
         {
-          data.image2 &&
-          <img src={data.image2} alt={`${data.title} 이미지`} />
+          data.image.map((img, index) =>
+          (
+            <div>
+              < img key={index} src={img.src} alt={`${data.title} ${index + 1}`} />
+              {img.caption && <p className='refer'>{img.caption}</p>}
+            </div>
+          )
+          )
         }
         <p className='detail-auth'>{data.author}</p>
         {

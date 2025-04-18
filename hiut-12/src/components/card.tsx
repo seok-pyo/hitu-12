@@ -50,7 +50,7 @@ export default function Card({ id, data, isCard, isVisited }: CardProps) {
         서울특별시 종로구 자하문로10길 15
       </div>
       <div className="people">
-        참여 | 박수민, 이수지, 이보라, 이지원, 정소이, 정영신, 허지선, 홍석표, 이용제
+        참여 | 박수민, 이수지, 이보라, 이지원, 정소이, 정영신, 최민영, 허지선, 홍석표, 이용제
       </div>
       <div>
         지원 | 활자공간, 오늘폰트

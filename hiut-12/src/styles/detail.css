@@ -36,7 +36,7 @@
 }
 
 .detail img {
-  max-width: 100%;
+  max-width: 50%;
   margin-top: 20px;
   /* border-radius: 8px; */
 }
@@ -79,6 +79,14 @@
   margin-top: 50px;
   line-height: 2;
   width: 60vw;
+  word-break: keep-all;
+}
+
+.refer {
+  margin-top: 20px;
+  width: 30vw;
+  font-size: 8px;
+  line-height: 2;
   word-break: keep-all;
 }
 
