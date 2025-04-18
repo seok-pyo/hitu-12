@@ -91,6 +91,10 @@
 }
 
 @media (max-width: 600px) {
+  .detail {
+    align-items: flex-start;
+  }
+
   .last {
     display: grid;
     grid-template-columns: 1fr 1fr;
