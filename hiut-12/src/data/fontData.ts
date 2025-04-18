@@ -145,6 +145,7 @@ export const fontData: Record<string, FontItem> = {
       { src: '/assets/hsp/1.png' },
       { src: '/assets/hsp/2.png' },
       { src: '/assets/hsp/3.png' },
+      { src: '/assets/hsp/4.png' },
     ],
   },
   yongje: {
