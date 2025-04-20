@@ -29,7 +29,7 @@ export const fontData: Record<string, FontItem> = {
     role: '본문',
     authorDes: '현재 서울에 거주하며 프리랜서 그래픽 디자이너로 활동하고 있다. 디자이너로서 대중들에게 쉽게 각인되기 위해 SNS상에서 활동명을 지었는데, 아마 이로 인해 대부분의 사람이 ‘박수민’이라는 실명보다 ‘MEW*3(뮤뮤뮤)’라는 이름이 더욱 익숙할 것이다. 타이포그래피에 관심이 많아 주로 관련된 디자인 작업을 하고 있다.',
     description: '[평안]은 환(둥근)고딕 종류의 가로쓰기 서체이다. 기존 굴림체는 속공간이 크고 20~36pt 기준으로 만들어져 본문용으로도, 제목용으로도 사용하기 애매했다고 한다. 환고딕은 굴림과는 달리 공간 구조가 고딕과 같아 본문용으로 사용해도 큰 어려움이 없을 것이라 판단했고, 이에 따라 [평안]은 보편적인 본문용 크기인 9~10pt 기준으로 만들고 있다. [평안]은 줄기의 끝과 꺾임 부분이 둥글게 표현된 덕분에 편안하고 부드러우며, 단정한 인상을 지니고 있다. 10pt 크기로 쓰여진 [평안]의 실제 모습을 보면 마치 볼펜으로 한 자 한 자 곧게 쓴 듯한 느낌이 든다. ‘평안’이라는 이름답게 편안하면서 단정한 인상이 필요한 글이라면, 어디든지 쓰여도 좋을 것 같다.',
-    image: [{ src: '/assets/psm/1.jpg' }, { src: '/assets/psm/2.jpg' }],
+    image: [{ src: '/assets/psm/1.jpeg' }, { src: '/assets/psm/2.jpeg' }],
   },
   bora: {
     title: '로맨스판타지',
@@ -115,6 +115,7 @@ export const fontData: Record<string, FontItem> = {
         { src: '/assets/cmy/1.png' },
         { src: '/assets/cmy/2.png' },
         { src: '/assets/cmy/3.png' },
+        { src: '/assets/cmy/4.png' },
       ],
   },
   jiseon: {
