@@ -60,7 +60,6 @@ export const fontData: Record<string, FontItem> = {
     type: '가로',
     role: '본문',
     authorDes: '이지원은 서울을 기반으로 활동하고 있는 디자이너다. 현재 꿈꾸미에서 배우미로, 배우미에서 만듦이로 나아가는 과정에 있다. 홍익대학교 시각디자인과를 졸업하고 브랜딩 프리랜서를 겸하며 글자를 그리고 있으며, 디자인을 좋아하기 시작한 이유였던 ‘글자’를 다시 한번 천천히 들여다보자는 마음으로 히읗을 찾았다. 글자 속에 다정하고 단단한 빛을 담아내고 싶다.',
-
     description: '단단하고 곧은, 동시에 따뜻하고 다정한. [원율]은 12pt를 기준으로 만들어진 인쇄매체용 활자다. 바르고 정갈하게 쓰인 『병학지남』 장용영판(목판본)의 글씨를 뼈대로 제작되었으며, 딱딱하지만은 않은 민부리 양식을 추구하고자 했다. [원율]은 근대화 이전의 해서체(바르게 쓴 글자체)의 뼈대를 기반으로 민부리 서체를 만들면, 우리가 지금 아는 소위 ‘고딕’체와는 다른 인상의 서체가 나오지 않을까 하는 궁금증에서 시작했다. 원전에서 가져온 기울기는 기하학적이고 곧은 글자체에 마치 손글씨같은 다정한 면모를 추가한다.',
     image: [
       { src: '/assets/ljw/1.jpg' },
@@ -164,7 +163,7 @@ export const fontData: Record<string, FontItem> = {
       { src: '/assets/lyj/4.jpg' },
       { src: '/assets/lyj/5.jpg' },
       { src: '/assets/lyj/6.jpg' },
-      { src: '/assets/lyj/7.png' },
+      { src: '/assets/lyj/7.jpg' },
       { src: '/assets/lyj/8.jpg' },
       { src: '/assets/lyj/9.jpg' },
       { src: '/assets/lyj/10.jpg' },
