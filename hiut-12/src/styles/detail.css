@@ -42,7 +42,9 @@
 }
 
 .detail-auth {
-  margin-top: 150px
+  margin-top: 150px;
+  /* margin-left: 20vw; */
+  align-self: flex-start;
 }
 
 .detail-aut-des {
@@ -52,6 +54,7 @@
   line-height: 2;
   word-break: keep-all;
 }
+
 
 .back {
   display: inline-block;
@@ -90,6 +93,16 @@
   word-break: keep-all;
 }
 
+.detail-auth-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* 부모를 가운데 정렬 */
+  text-align: left;
+  /* 자식 텍스트를 왼쪽 정렬 */
+}
+
+
 @media (max-width: 600px) {
   .detail {
     align-items: flex-start;
@@ -117,4 +130,6 @@
   .refer {
     width: 60vw;
   }
+
+
 }

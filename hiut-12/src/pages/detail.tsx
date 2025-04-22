@@ -35,7 +35,11 @@ export default function Detail() {
           <br />
           ‘머리와 맺음’ 전시는 ‘시작을 위해 맺는’ 의식이다. 너무나 흔한 말로, 시작이 있으면 끝이 있고, 또 끝이 나야 시작이 있다. 어떤 의미에서는 맺음이고, 어떤 의미에서는 끝이고,
           어떤 의미에서는 시작이다. 이제 중요한 선택을 해야 한다. 이번 전시가 학습의 맺음이 끝이 될 것인가? 이 맺음이 다음 단계의 시작이 될 것인가? 각자 ‘나는 시작에 서 있는가, 끝에 서 있는가?’</p>
-        <p><Link to="/" className="back2">돌아가기</Link></p>
+        <p>
+          <div>
+            <img id="gallery" key={`${data.title} 1`} src={data.image['0']['src']} alt={`${data.title} 1`} />
+          </div>
+          <Link to="/" className="back2">돌아가기</Link></p>
       </div>
       :
       <div className="detail">
@@ -52,11 +56,13 @@ export default function Detail() {
           )
           )
         }
-        <p className='detail-auth'>{data.author}</p>
-        {
-          data.authorDes &&
-          <p className='detail-aut-des'>{data.authorDes}</p>
-        }
+        <div className="detail-auth-part">
+          <p className='detail-auth'>{data.author}</p>
+          {
+            data.authorDes &&
+            <p className='detail-aut-des'>{data.authorDes}</p>
+          }
+        </div>
 
         <Link to="/" className="back">돌아가기</Link>
       </div>
