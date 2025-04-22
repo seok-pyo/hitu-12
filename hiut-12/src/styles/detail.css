@@ -102,6 +102,10 @@
   /* 자식 텍스트를 왼쪽 정렬 */
 }
 
+#gallery {
+  margin-top: 80px;
+}
+
 
 @media (max-width: 600px) {
   .detail {
