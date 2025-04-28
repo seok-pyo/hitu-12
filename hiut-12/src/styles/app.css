@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
-
   align-items: stretch;
 }
 
@@ -85,6 +84,7 @@
   }
 
   .card {
+    width: 90vw;
     height: 200px;
   }
 
