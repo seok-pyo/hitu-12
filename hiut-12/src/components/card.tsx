@@ -40,20 +40,24 @@ export default function Card({ id, data, isCard, isVisited }: CardProps) {
         <div className="card-title">{title}</div>
         <div className="details">{author}</div>
       </div>
-    </Link > : <div className="last">
-      <div>
-        머리와 맺음<br />
-        2025. 04. 20. - 2025. 04. 27.
+    </Link > :
+    <Link to={`/archive`}>
+      <div className="last">
+        <div>
+          머리와 맺음<br />
+          2025. 04. 20. - 2025. 04. 27.
+        </div>
+        <div>
+          Factory2<br />
+          서울특별시 종로구 자하문로10길 15
+        </div>
+        <div className="people">
+          참여 | 박수민, 이수지, 이보라, 이지원, 정소이, 정영신, 최민영, 허지선, 홍석표, 이용제
+        </div>
+        <div>
+          지원 | 활자공간, 오늘폰트
+        </div>
       </div>
-      <div>
-        Factory2<br />
-        서울특별시 종로구 자하문로10길 15
-      </div>
-      <div className="people">
-        참여 | 박수민, 이수지, 이보라, 이지원, 정소이, 정영신, 최민영, 허지선, 홍석표, 이용제
-      </div>
-      <div>
-        지원 | 활자공간, 오늘폰트
-      </div>
-    </div>
+    </Link>
+
 }

@@ -112,11 +112,11 @@
     align-items: flex-start;
   }
 
-  .last {
+  /* .last {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem 1.5rem;
-  }
+  } */
 
   .exhi-des,
   .detail-des {
@@ -134,6 +134,4 @@
   .refer {
     width: 60vw;
   }
-
-
 }

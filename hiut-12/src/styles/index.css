@@ -50,11 +50,11 @@ img {
 }
 
 @media (max-width: 600px) {
-  .last {
+  /* .last {
     margin-top: 150px;
     width: 70vw;
     grid-template-columns: 1fr;
-  }
+  } */
 
   body {
     padding: 0;

@@ -56,13 +56,17 @@
 
 .last {
   /* margin-left: 15px; */
-  background-color: #000;
-  color: #01A1E8;
+  /* background-color: #000; */
+  /* color: #01A1E8; */
+  background-color: #01A1E8;
   display: flex;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
   flex-direction: column;
-  margin-left: 15px;
-  margin-top: 10px;
-  gap: 1.75rem;
+  /* margin-left: 15px;
+  margin-top: 10px; */
+  gap: 1.25rem;
   line-height: 1.5;
   font-size: 15px;
 }
@@ -73,18 +77,19 @@
 }
 
 @media (max-width: 600px) {
-  .people {
+  /* .people {
     width: initial;
-  }
+  } */
 
+  /*
   .last {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
+  } */
 
   .card {
-    width: 90vw;
+    /* width: 90vw; */
     height: 200px;
   }
 
@@ -96,11 +101,11 @@
     background-color: #01A1E8;
   }
 
-  .last {
+  /* .last {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 15px;
-  }
+  } */
 }
 
 .logo,
